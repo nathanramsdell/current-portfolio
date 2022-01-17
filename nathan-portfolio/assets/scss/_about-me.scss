@@ -1,0 +1,242 @@
+/*======================================
+   Start About Me Area CSS
+========================================*/
+.about-me {
+    background: $gray;
+}
+
+.about-me .inner {
+    background: #fff;
+    box-shadow: 0px 13px 20px #8c8c8c12;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.about-me .about-left {
+    background: $secondary-color;
+    background-image: url(../images/achivement/pattern.png);
+}
+
+.about-me .about-left img {
+    margin-top: 30px;
+}
+
+
+.about-me .about-right {
+    padding: 50px 40px 40px 40px;
+}
+
+.about-me .about-right .right-title {
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-me .about-right .right-title span {
+    font-size: 15px;
+    color: #333;
+    display: block;
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+.about-me .about-tab {
+    margin-top: 40px;
+}
+
+.about-me .about-tab .nav {
+    margin-bottom: 40px;
+    background: transform;
+    position: relative;
+}
+
+.about-me .about-tab .nav-tabs {
+    border-bottom: 2px solid $theme-color;
+}
+
+.about-me .about-tab .nav li {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.about-me .about-tab .nav li a {
+    color: $black;
+    border: none;
+    padding: 0;
+    padding: 10px 25px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 500;
+}
+
+.about-me .about-tab .nav li a.active {
+    background: $theme-color;
+    color: #fff;
+}
+
+.about-me .tab-about p:first-child {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.about-me .tab-about p {
+    color: #999;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.about-me .about-me-info {
+    margin-bottom: 30px;
+}
+
+
+.about-me .about-me-info ul li {
+    margin-bottom: 8px;
+}
+
+.about-me .about-me-info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.about-me .about-me-info ul li span {
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 7px;
+    color: #333;
+}
+
+.about-me .button {
+    margin-top: 40px;
+}
+
+.about-me .button .btn i {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+.about-me .skill-main h3 {
+    margin-top: 0 !important;
+}
+
+.about-me .skill-main .single-skill {
+    margin-bottom: 30px;
+}
+
+.about-me .skill-main .skill-title h4 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.about-me .skill-main .progress {
+    border-radius: 0px;
+    box-shadow: none;
+    background: #3333330a;
+    height: 5px;
+    border-radius: 0;
+    overflow: visible;
+    border-radius: 0;
+}
+
+.about-me .skill-main .progress-bar {
+    position: relative;
+    background: $theme-color;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    overflow: visible;
+}
+
+.about-me .skill-main .progress-bar span {
+    position: absolute;
+    right: 2px;
+    top: -40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    background: $theme-color;
+    height: 30px;
+    width: 40px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+.about-me .skill-main .progress-bar span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: -6px;
+    border: 4px solid $theme-color;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.about-me .tab-contact .single-info {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    padding-left: 75px;
+}
+
+.about-me .contact-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    border-left: 1px solid #eee;
+    padding-left: 60px;
+}
+
+.about-me .contact-address-icon i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: transparent;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    background-color: $theme-color;
+    color: $white;
+}
+
+.about-me .contact-address-icon {
+    margin-right: 30px;
+}
+
+.about-me .tab-contact h3 {
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.about-me .tab-contact span {
+    color: #777;
+    font-size: 14px;
+    display: block;
+
+}
+
+.about-me .tab-contact span a {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about-me .tab-contact span a:hover {
+    color: $theme-color;
+}
+
+/*======================================
+   End About Me Area CSS
+========================================*/

@@ -1,0 +1,260 @@
+/*=============================
+	Start Services CSS
+===============================*/
+.services {
+    background: #fff;
+
+    .section {
+        padding-bottom: 85px;
+    }
+
+    .section-title {
+        margin-bottom: 65px;
+    }
+}
+
+.services .single-service {
+    text-align: left;
+    position: relative;
+    padding: 130px 40px 45px 40px;
+    box-shadow: 0px 5px 35px #0000000d;
+    border-radius: 5px;
+    background: #fff;
+    z-index: 5;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin: 15px 0;
+}
+
+.services .single-service .serial span {
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: $white;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: $theme-color;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.services .single-service:hover {
+    background: $theme-color;
+}
+
+.services .single-service:hover .serial span {
+    border-color: transparent;
+    background: #fff;
+    color: $theme-color;
+    border-radius: 50%;
+}
+
+.services .single-service h3 {
+    color: #333;
+    font-weight: 600;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+    a {
+        font-size: 22px;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.services .single-service:hover h3 {
+    color: #fff;
+}
+
+.services .single-service p {
+    margin-top: 20px;
+    line-height: 24px;
+    font-size: 15px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.services .single-service:hover p {
+    color: #fff;
+}
+
+
+
+
+.circles-wrap {
+    position: absolute;
+    bottom: -65%;
+    right: -50%;
+    z-index: -1;
+}
+
+span.circle {
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.services .single-service:hover span.circle {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.services .circles {
+    height: 400px;
+    width: 400px;
+    background: 0 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 1
+}
+
+.services span.circle.circle-1 {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 5;
+    display: inline-block;
+    z-index: 5;
+}
+
+.services span.circle.circle-2 {
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 4;
+}
+
+.services span.circle.circle-3 {
+    height: 300px;
+    width: 300px;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 3;
+}
+
+.services span.circle.circle-4 {
+    height: 400px;
+    width: 400px;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 2;
+}
+
+.services .single-service:hover span.circle,
+.services .single-service.active span.circle {
+    transform: scale(1);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.services .single-service:hover span.circle,
+.single-service.active span.circle {
+    transform: scale(1);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.services .service-area .circles-wrap {
+    position: absolute;
+    bottom: -32%;
+    left: auto;
+    z-index: -1;
+    right: -50%
+}
+
+/* Service Details */
+.service-details {
+
+    .content {
+        padding: 100px 0;
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: $black;
+            font-size: 28px;
+            margin-top: 30px;
+        }
+
+        p {
+            margin: 30px 0;
+            font-size: 15px;
+            line-height: 28px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .service-category {
+        background-color: $gray;
+        padding: 35px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+
+        li {
+            display: block;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                padding: 15px 20px;
+                background-color: $white;
+                color: $black;
+                display: block;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: $theme-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+}
+
+.extra-page {
+    padding-bottom: 70px;
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+}
+
+/*=============================
+	End services CSS
+===============================*/

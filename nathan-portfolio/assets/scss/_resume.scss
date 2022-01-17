@@ -1,0 +1,214 @@
+/*======================================
+  Resume Area CSS
+========================================*/
+.resume {
+    background-color: $gray;
+    position: relative;
+}
+
+.my-resume {
+    padding-left: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    /*! border-left: 1px dashed $theme-color; */
+}
+
+.my-resume .inner-title {
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+    /*! border-left: 4px solid $theme-color; */
+    /*! padding-left: 10px; */
+    line-height: 40px;
+}
+
+.resume .section-title {
+    margin-bottom: 60px;
+}
+
+.img-svg img {
+    padding-right: 40px;
+}
+
+.history-top {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 12px;
+    color: #fff;
+    background: $theme-color;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.history-top::before {
+    position: absolute;
+    left: -31px;
+    top: 9px;
+    display: block;
+    content: "";
+    border-bottom: 7px solid transparent;
+    transform: rotate(-90deg);
+}
+
+.title-resume {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #444;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.title-resume::before {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    background: #444;
+    height: 1px;
+    width: 30px;
+    display: block;
+    content: " ";
+}
+
+.resume-item {
+    background: #fff;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 40px 40px;
+    -webkit-box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
+    box-shadow: 0px 10px 60px 0px rgba(0, 11, 40, 0.09);
+    border-radius: 3px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 5;
+}
+
+.resume-item:hover {}
+
+.resume-item .shape1 {
+    position: absolute;
+    left: -50px;
+    top: -40px;
+    height: 120px;
+    width: 50px;
+    transform: rotate(90deg);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.resume-item .shape2 {
+    position: absolute;
+    right: -25px;
+    bottom: -27px;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transform: scale(0);
+}
+
+.resume-item:hover .shape2 {
+    filter: blur(0px);
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.resume-item:hover .shape1 {
+    top: -60px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.resume-item .icon-bg {
+    position: absolute;
+    color: #9b9b9b;
+    bottom: 20px;
+    font-size: 50px;
+    right: 20px;
+    opacity: .1;
+}
+
+.resume-head {
+    border-bottom: 2px solid #eeeeee3d;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.icon-exp {
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    color: $theme-color;
+    line-height: 70px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    float: left;
+    border-radius: 3px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #8e8e8e14;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content-exper {
+    padding-left: 95px;
+    padding-top: 12px;
+}
+
+.resume-head .content-exper h4 {
+    color: #444;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.resume-head.content-exper .history {
+    font-size: 13px;
+    color: #444;
+}
+
+.resume-footer {
+    position: relative;
+}
+
+.resume-footer p {
+    margin-bottom: 0;
+    color: #979797;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.resume-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.img-resume {
+    margin-top: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*======================================
+  /End Resume Area CSS
+========================================*/

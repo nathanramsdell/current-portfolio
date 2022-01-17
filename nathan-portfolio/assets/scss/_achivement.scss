@@ -1,0 +1,156 @@
+.achivement {
+    padding: 50px 0;
+}
+
+.achivement .top-social {
+    text-align: right;
+    display: block;
+    display: inline-block;
+    margin-top: 30px;
+
+    ul {
+        display: inline-block;
+
+        li {
+            display: inline-block;
+            margin-right: 5px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: #1c1d1f;
+                font-size: 17px;
+                position: relative;
+                height: 50px;
+                width: 50px;
+                line-height: 30px;
+                text-align: center;
+                display: block;
+                -webkit-transition: all 0.4s ease;
+                -moz-transition: all 0.4s ease;
+                transition: all 0.4s ease;
+                overflow: hidden;
+                border: 1px solid #eee;
+                border-radius: 50%;
+
+                &:hover .icon-1 {
+                    top: -15px;
+                }
+
+                &:hover .icon-2 {
+                    top: 23px;
+                }
+
+                .icon-2 {
+                    top: 59px;
+                }
+
+                &:hover {
+                    color: $theme-color;
+                }
+
+                span {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -15px;
+                    margin-top: -15px;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    display: block;
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 500;
+        display: inline-block;
+        margin-right: 123px;
+        margin-top: 15px;
+        position: relative;
+        top: -16px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 2px;
+            position: absolute;
+            right: -110px;
+            top: 50%;
+            margin-top: 0px;
+            background: #eee;
+        }
+
+    }
+}
+
+.achivement .about-top-content {
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #333;
+    }
+
+    .span1 {
+        color: $theme-color;
+    }
+
+    .span2 {
+        color: $secondary-color;
+    }
+}
+
+
+.achivement .small-head {
+    float: right;
+}
+
+.achivement .small-expe {
+    border-radius: 8px;
+    text-align: center;
+    background: $theme-color;
+    display: inline-block;
+    margin-right: 15px;
+    width: 158px;
+    height: 180px;
+    padding: 45px 10px;
+    background-image: url('../images/achivement/pattern.png');
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+.achivement .small-expe.two {
+    background: #74b9ff;
+    background-image: url('../images/achivement/pattern.png');
+}
+
+.achivement .small-expe.three {
+    background: $black;
+    background-image: url('../images/achivement/pattern.png');
+}
+
+.achivement .small-expe ul .countup {
+    font-size: 42px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.achivement .small-expe ul li {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
