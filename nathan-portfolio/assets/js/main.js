@@ -111,7 +111,6 @@ Author: GrayGrids
 
 const container = document.querySelector('.fireworks-example');
 const fireworksStartbutton = document.querySelector('.fireworks-startbutton');
-const audioContainer = document.querySelector('.audio-player');
 const fireworks = new Fireworks(container, {
   rocketsPoint: 50,
   hue: { min: 0, max: 360 },
@@ -149,7 +148,6 @@ const fireworks = new Fireworks(container, {
 
 fireworksStartbutton.addEventListener('click', () => {
   fireworks.start();
-  audioContainer.src = 'assets/songs/teenage-hero.mp3';
 });
 
 //====== audio embed
