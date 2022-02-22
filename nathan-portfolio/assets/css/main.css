@@ -1485,7 +1485,7 @@ ol {
 }
 
 .navbar-brand img {
-  width: 140px;
+  width: 60px;
 }
 
 .navbar-toggler {
@@ -5168,7 +5168,7 @@ blockquote span {
     line-height: 23px;
   }
   .navbar-brand img {
-    width: 130px;
+    width: 40px;
   }
   .header.index2 .navbar .navbar-nav .nav-item a {
     color: #081828;
